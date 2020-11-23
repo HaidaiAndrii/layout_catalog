@@ -57,7 +57,7 @@
 
   &__buy {
     display: flex;
-    background: #00acdc;
+    background: $blue_color;
     width: 170px;
     height: 40px;
     align-items: center;
@@ -69,13 +69,13 @@
     font-size: 14px;
     line-height: 16px;
     border-radius: 5px;
+    border: 1px solid $blue_color;
     transition: background-color 1s, color 1s;
   }
 
   &__buy:hover {
-    color: #00acdc;
+    color: $blue_color;
     background-color: white;
-    border: 1px solid #00acdc;
   }
 
   &__number {
