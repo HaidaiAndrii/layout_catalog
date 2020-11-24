@@ -1,7 +1,10 @@
 main {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, $card-width);
+  column-gap: 48px;
+  row-gap: 50px;
   justify-content: center;
+  justify-items: center;
   max-width: ($card-width * 4) + (48px * 4);
   margin: 50px auto;
 }
